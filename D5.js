@@ -115,3 +115,93 @@ while (numericArray[i] !== 32) {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+const posizionilettere = [];
+for (let i = 0; i < length.charactersArray; i++) {
+  const lettera = charactersArray[i];
+  switch (lettera) {
+    case "a":
+      posizionilettere.push(1);
+      break;
+
+    case "b":
+      posizionilettere.push(2);
+      break;
+
+    case "c":
+      posizionilettere.push(3);
+      break;
+
+    case "d":
+      posizionilettere.push(4);
+      break;
+
+    case "e":
+      posizionilettere.push(5);
+      break;
+
+    case "f":
+      posizionilettere.push(6);
+      break;
+
+    case "g":
+      posizionilettere.push(7);
+      break;
+
+    case "h":
+      posizionilettere.push(8);
+      break;
+
+    case "i":
+      posizionilettere.push(9);
+      break;
+
+    case "l":
+      posizionilettere.push(10);
+      break;
+
+    case "m":
+      posizionilettere.push(11);
+      break;
+
+    case "n":
+      posizionilettere.push(12);
+      break;
+
+    case "o":
+      posizionilettere.push(13);
+      break;
+
+    case "p":
+      posizionilettere.push(14);
+      break;
+
+    case "q":
+      posizionilettere.push(15);
+      break;
+
+    case "r":
+      posizionilettere.push(16);
+      break;
+
+    case "s":
+      posizionilettere.push(17);
+      break;
+
+    case "t":
+      posizionilettere.push(18);
+      break;
+
+    case "u":
+      posizionilettere.push(19);
+      break;
+
+    case "v":
+      posizionilettere.push(20);
+      break;
+
+    case "z":
+      posizionilettere.push(21);
+      break;
+  }
+  console.log(posizionilettere);
+}
